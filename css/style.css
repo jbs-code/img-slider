@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+img{
+    width:100%;
+}
+
+.header{
+    color: black;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.container__slide{
+    display: flex;
+    width: 100%;
+}
+
+.container__button{
+    font-size:2em;
+    color:#fff;
+    cursor:pointer;
+    position: absolute;
+    top:50%;
+    z-index: 10;
+}
+
+.container__button--izq{
+    left: 5%;
+}
+.container__button--der{
+    right: 5%;
+}
+
